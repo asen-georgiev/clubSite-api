@@ -1,3 +1,4 @@
 {
-  "jwtPrivateKey": "clubsite_jwtPrivateKey"
+  "jwtPrivateKey": "clubsite_jwtPrivateKey",
+  "db": "warrior02_db"
 }
