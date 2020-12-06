@@ -15,7 +15,7 @@ router.get('/me', authorization, async (req, res) => {
 
 
 //Асинхронна функция за показване на всички регистрирани в ДБ юзъри (изисква ауторизация от middleware)
-router.get('/', authorization, async (req, res) => {
+router.get('/', async (req, res) => {
     const users = await User
         .find()
         .select("-__v")
